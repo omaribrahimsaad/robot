@@ -68,8 +68,8 @@ Visualization Manager:
       Marker Scale: 1
       Name: TF
       Show Arrows: true
-      Show Axes: true
-      Show Names: true
+      Show Axes: false
+      Show Names: false
       Tree:
         base_link:
           chassis:
@@ -184,18 +184,18 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.07073460519313812
-        Y: 0.08886341750621796
-        Z: 0.06270737200975418
+        X: 0.061575163155794144
+        Y: 0.03485487774014473
+        Z: 0.10719398409128189
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.23039864003658295
+      Pitch: -1.5697963237762451
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.180399775505066
+      Yaw: 3.1803975105285645
     Saved: ~
 Window Geometry:
   Displays:
