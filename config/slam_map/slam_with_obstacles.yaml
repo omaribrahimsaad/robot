@@ -1,7 +1,7 @@
 image: slam_with_obstacles.pgm
 mode: trinary
 resolution: 0.05
-origin: [-5.43, -8.13, 0]
+origin: [-5.43, -8.12, 0]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.25
