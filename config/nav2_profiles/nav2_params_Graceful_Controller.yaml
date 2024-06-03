@@ -131,7 +131,7 @@ controller_server:
       yaw_goal_tolerance: 0.25
       stateful: True
     FollowPath:
-      plugin: nav2_graceful_controller::GracefulController
+      plugin: "nav2_graceful_controller::GracefulController"
       transform_tolerance: 0.1
       motion_target_dist: 0.6
       initial_rotation: true
@@ -143,7 +143,7 @@ controller_server:
       beta: 0.4
       lambda: 2.0
       v_linear_min: 0.1
-      v_linear_max: 1.0
+      v_linear_max: 5.0
       v_angular_max: 5.0
       slowdown_radius: 1.5
 local_costmap:
